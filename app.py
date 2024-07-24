@@ -1,5 +1,5 @@
 import gradio as gr
-from multimodal_chat import get_answer
+from instigpt import get_answer
 
 # Define the chatbot function
 def chatbot(question):

@@ -16,6 +16,3 @@ langchain-groq
 langchain-huggingface
 unstructured
 langchain-google-genai
-pdfminer.six
-unstructured-pytesseract
-tesseract-ocr

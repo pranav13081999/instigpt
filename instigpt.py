@@ -22,7 +22,7 @@ client = weaviate.Client(
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
 embeddings = HuggingFaceEmbeddings(model_name=embedding_model_name)
 
-loader = PyPDFLoader("D:\SUMMER_OF_CODE\Final_project\FINAL_SCRAPED_DATA.pdf", extract_images=True)
+loader = PyPDFLoader("./FINAL_SCRAPED_DATA.pdf", extract_images=True)
 pages = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=30)
